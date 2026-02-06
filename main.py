@@ -334,4 +334,6 @@ def amo_with(message):
         return
 
 if __name__ == '__main__':
+  bot.remove_webhook()
+time.sleep(1)
     bot.polling(none_stop=True)
