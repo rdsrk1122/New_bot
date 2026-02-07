@@ -334,6 +334,8 @@ def amo_with(message):
         return
 
 if __name__ == '__main__':
-  bot.remove_webhook()
-time.sleep(1)
+    bot.remove_webhook()
+    import time # time মডিউলটি আগে ইমপোর্ট করা থাকতে হবে
+    time.sleep(1)
     bot.polling(none_stop=True)
+
