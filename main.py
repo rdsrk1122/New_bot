@@ -1,11 +1,11 @@
-import time
+aimport time
 import json
 import telebot
 
 ##TOKEN DETAILS
 TOKEN = "TRON"
 
-BOT_TOKEN = "8376350960:AAHlvhpHsh8UQP2YM5qtOWcLhLQ1YRmBOXY"
+BOT_TOKEN = "8405327499:AAH7NF4jOrGKPyvyARwinDaVB19u0YkxY9w"
 PAYMENT_CHANNEL = "@amrrdsteam" #add payment channel here including the '@' sign
 OWNER_ID = 7159407533 #write owner's user id here.. get it from @MissRose_Bot by /id
 CHANNELS = ["@amrrdsteam"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
